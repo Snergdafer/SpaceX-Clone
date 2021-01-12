@@ -1,0 +1,140 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    color: white;
+    font-family: Roboto; 
+}
+
+#header {
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+}
+
+#logo {
+    font-size: 30px;
+    position: absolute;
+    top: 32px;
+    margin-left: 350px;
+    width: 210px;
+    height: auto;
+}
+
+#menu {
+    display: flex;
+    margin-left: 500px;
+}
+
+span {
+    top: 40px;
+    position: relative;
+    display: inline-block;
+    margin: 0 12px;
+}
+
+#shop {
+    margin-top: 40px;
+    margin-left: 400px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#s1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: url("https://p0.pikrepo.com/preview/171/791/crs-4-timelapse-photo-of-rocket-launch.jpg");
+}
+
+#t1 {
+    position: absolute;
+    bottom: 15%;
+    right: 50px;
+    text-align: right;
+}
+
+#s2 {
+    background-image: url("https://i.ytimg.com/vi/SeoJrbN_E3U/maxresdefault.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#t2 {
+    position: flex;
+    bottom: 10%;
+    left: 50px;
+    text-align: left;
+}
+
+#s3 {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/XpN8sZsB__JojKghoiFrOUXQuKs=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13730292/iss037e026913_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#t3 {
+    position: flex;
+    bottom: 10%;
+    left: 50px;
+    text-align: left;
+}
+
+#s4 {
+    background-image: url("https://www.nationalgeographic.com/content/dam/science/2020/10/28/ISS/international_space_station_in_2018.adapt.1900.1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#t4 {
+    position: flex;
+    bottom: 10%;
+    left: 50px;
+    text-align: left;
+}
+
+#s5 {
+    background-image: url("https://img.etimg.com/thumb/msid-80172545,width-650,imgsize-601228,,resizemode-4,quality-100/elon-musk.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#t5 {
+    position: flex;
+    bottom: 10%;
+    left: 50px;
+    text-align: left;
+}
+
+#s6 {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/qRyxLLiZvAuPRyUDSW4g4j.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#t6 {
+    position: flex;
+    bottom: 15%;
+    right: 50px;
+    text-align: right;
+}
